@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Elogic_ContactForm::main" title="Contact Form" module="Elogic_ContactForm" sortOrder="55" parent="Magento_Backend::content" resource="Elogic_CreditDecision::main" />
+        <add id="Elogic_ContactForm::cms_block" title="Contact Form" translate="title" module="Elogic_ContactForm" sortOrder="30" parent="Elogic_ContactForm::main" action="elogic_contactform/form" resource="Elogic_ContactForm::block"/>
+    </menu>
+</config>
